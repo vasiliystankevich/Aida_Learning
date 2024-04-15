@@ -12,7 +12,7 @@ namespace ConsoleApp_3
             Console.Write("File Byte = ");
             int FileByte = int.Parse(Console.ReadLine());
             int FileKb = FileByte / 1024;
-            Console.Write("File Kb = " + FileKb);
+            Console.Write($"File Kb = {FileKb}");
             Console.ReadKey();
         }
     }
