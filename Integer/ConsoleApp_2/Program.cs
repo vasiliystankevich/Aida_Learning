@@ -7,8 +7,9 @@ namespace ConsoleApp_2
 {
     class Program
     {
-        static void Main(string[] argh);
+        static void Main(string[] argh) //была обнаружена лишняя точка с запятой, исправленно
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8; //решение проблем с выводом русского языка в консоль
             Console.Write("M: ");
             int M = Convert.ToInt32(Console.ReadLine());
             int Mt = M / 1000;

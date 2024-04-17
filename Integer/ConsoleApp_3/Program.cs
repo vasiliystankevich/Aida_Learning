@@ -9,6 +9,7 @@ namespace ConsoleApp_3
     {
         static void Main(string[] argh)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8; //решение проблем с выводом русского языка в консоль
             Console.Write("File Byte = ");
             int FileByte = int.Parse(Console.ReadLine());
             int FileKb = FileByte / 1024;
