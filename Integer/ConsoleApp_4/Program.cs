@@ -7,19 +7,16 @@ namespace ConsoleApp
 {
     class Programm
     {
+        //очищен код программы от лишних действий, оптимизация вывода данных через знак $
         static void Main(string[] argh)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8; //решение проблем с выводом русского языка в консоль
             Console.Write("A = ");
             int a = int.Parse(Console.ReadLine());
             Console.Write("B = ");
             int b = int.Parse(Console.ReadLine());
-           // Console.WriteLine("В отрезке A содержится " + (int) a / b + " полных отрезков B.");
-            int c = a / b;
-            Console.WriteLine($"In А count B = {c}"); //почему не работает 
-            //Console.WriteLine($"В отрезке А содержится {c} полных отрезков В"); //почему не работает 
-            //Console.WriteLine("C = " + c);
-            Console.ReadKey();
-            
+            Console.WriteLine($"В отрезке A содержится {a / b} полных отрезков B.");
+            Console.ReadKey();            
         }
     }
 }
