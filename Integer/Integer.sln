@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_1", "ConsoleApp_1\ConsoleApp_1.csproj", "{B5E28659-959D-494E-BAC2-36B0DE0CDE31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_1", "Sources\ConsoleApp_1\ConsoleApp_1.csproj", "{B5E28659-959D-494E-BAC2-36B0DE0CDE31}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_2", "ConsoleApp_2\ConsoleApp_2.csproj", "{F66ED38D-29CF-4BA2-B9DD-411CF2862BEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_2", "Sources\ConsoleApp_2\ConsoleApp_2.csproj", "{F66ED38D-29CF-4BA2-B9DD-411CF2862BEA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_3", "ConsoleApp_3\ConsoleApp_3.csproj", "{DBC2DFBD-26FC-4613-863B-66F1BD16DC03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_3", "Sources\ConsoleApp_3\ConsoleApp_3.csproj", "{DBC2DFBD-26FC-4613-863B-66F1BD16DC03}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_4", "ConsoleApp_4\ConsoleApp_4.csproj", "{F6BC3D67-D865-45BA-BD22-E492C4C80610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_4", "Sources\ConsoleApp_4\ConsoleApp_4.csproj", "{F6BC3D67-D865-45BA-BD22-E492C4C80610}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_5", "ConsoleApp_5\ConsoleApp_5.csproj", "{5C284EC9-52CA-4F4F-B50A-8FFD6E65C6BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_5", "Sources\ConsoleApp_5\ConsoleApp_5.csproj", "{5C284EC9-52CA-4F4F-B50A-8FFD6E65C6BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
