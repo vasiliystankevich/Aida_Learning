@@ -16,7 +16,7 @@ namespace ConsoleApp
             Console.Write("B = ");
             int b = int.Parse(Console.ReadLine());
             Console.WriteLine($"В отрезке A содержится {a / b} полных отрезков B.");
-            Console.WriteLine($"In А count B = {c}"); //почему не работает 
+            //Console.WriteLine($"In А count B = {c}"); //почему не работает 
             Console.ReadKey();            
         }
     }
