@@ -8,6 +8,7 @@ namespace ConsoleApp_13
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("Введите техзначное число: ");
             int a = Convert.ToInt32(Console.ReadLine());
             int b = a / 100;

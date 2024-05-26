@@ -8,6 +8,7 @@ namespace ConsoleApp_12
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             int f;
             Console.WriteLine("Введите терехзначное число: ");
             int a = Convert.ToInt32(Console.ReadLine());
