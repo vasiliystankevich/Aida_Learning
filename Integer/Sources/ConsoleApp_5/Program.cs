@@ -10,6 +10,7 @@ namespace ConsoleApp_5
     {
         static void Main(string[] argh)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.Write("A = ");
             int a = int.Parse(Console.ReadLine());
             Console.Write("B = ");

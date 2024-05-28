@@ -9,6 +9,7 @@ namespace ConsoleApp_15
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             int d;
             Console.WriteLine("Введите трехзначное число: ");
             int a = Convert.ToInt32(Console.ReadLine());

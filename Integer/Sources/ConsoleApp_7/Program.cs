@@ -8,6 +8,7 @@ namespace ConsoleApp_7
     {
         static void Main(string[] argh)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("Введите двузначное число: ");
             int a = int.Parse(Console.ReadLine());
             int b = 10;

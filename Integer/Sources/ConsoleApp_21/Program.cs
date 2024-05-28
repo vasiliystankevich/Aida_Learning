@@ -8,6 +8,7 @@ namespace ConsoleApp_21
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("second: ");
             double a = Convert.ToDouble(Console.ReadLine());
             double b = a % 60;
