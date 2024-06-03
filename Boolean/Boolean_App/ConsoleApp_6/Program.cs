@@ -17,6 +17,7 @@ namespace ConsoleApp_6
             Console.WriteLine("Введите число C: ");
             int c = Convert.ToInt32(Console.ReadLine());
             bool d = (a < b) & (b < c);
+            Console.WriteLine(b);
             Console.ReadKey();
             
 
