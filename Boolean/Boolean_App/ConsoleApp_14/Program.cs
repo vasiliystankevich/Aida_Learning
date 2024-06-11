@@ -20,6 +20,7 @@ namespace ConsoleApp_14
             }
             else if (a < 0 & b > 0 & c < 0)
             {
+                
                 Console.WriteLine("Ровно одно из трех чисел положительное");
             }
             else if ( a < 0 & b < 0 & c > 0)
