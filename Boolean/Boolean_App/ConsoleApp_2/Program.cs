@@ -12,8 +12,7 @@ namespace ConsoleApp_2
             Console.WriteLine("Введите целое число");
             int a = Convert.ToInt32(Console.ReadLine());
             bool c = (a % 2 != 0);
-            Console.WriteLine(c);
-            Console.ReadKey();
+            
             if (a % 2 == 0)
             {
                 Console.WriteLine("четное");

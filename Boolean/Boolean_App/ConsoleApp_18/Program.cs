@@ -3,7 +3,7 @@
 
 using System;
 
-namespace ConsoleApp_17
+namespace ConsoleApp_18
 {
     class Program
     {
