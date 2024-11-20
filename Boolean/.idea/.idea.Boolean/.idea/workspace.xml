@@ -33,12 +33,28 @@
     <projectFile>Boolean_App/ConsoleApp_32/ConsoleApp_32.csproj</projectFile>
     <projectFile>Boolean_App/ConsoleApp_33/ConsoleApp_33.csproj</projectFile>
     <projectFile>Boolean_App/ConsoleApp_34/ConsoleApp_34.csproj</projectFile>
+    <projectFile>Boolean_App/ConsoleApp_35/ConsoleApp_35.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca358831-3490-482e-9631-58a9be26d395" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Integer/.idea/.idea.Integer/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integer/.idea/.idea.Integer/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integer/.idea/.idea.Integer/.idea/indexLayout.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp10/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp10/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp11/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp11/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp12/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp12/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp13/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp13/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp3/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp7/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp7/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp8/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp8/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp9/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../If/ConsoleApp_If/ConsoleApp9/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Boolean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Boolean/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boolean.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Boolean.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boolean_App/ConsoleApp_34/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Boolean_App/ConsoleApp_34/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +83,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.ConsoleApp_34">
+  <component name="RunManager" selected=".NET Project.ConsoleApp_35">
     <configuration name="ConsoleApp_1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -572,6 +588,42 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="ConsoleApp_35" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Boolean_App/ConsoleApp_35/ConsoleApp_35.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="ConsoleApp_36" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Boolean_App/ConsoleApp_36/ConsoleApp_36.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="ConsoleApp_4" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -698,7 +750,15 @@
       <workItem from="1724852069300" duration="2355000" />
       <workItem from="1724855704027" duration="2535000" />
       <workItem from="1724859728127" duration="1267000" />
-      <workItem from="1729723820257" duration="75000" />
+      <workItem from="1729723820257" duration="494000" />
+      <workItem from="1729726015594" duration="2830000" />
+      <workItem from="1731564244161" duration="324000" />
+      <workItem from="1731564868320" duration="193000" />
+      <workItem from="1731565290546" duration="202000" />
+      <workItem from="1731566712256" duration="4000" />
+      <workItem from="1731583104285" duration="90000" />
+      <workItem from="1731583451856" duration="74000" />
+      <workItem from="1731840206656" duration="267000" />
     </task>
     <servers />
   </component>
@@ -710,5 +770,24 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Boolean_App/ConsoleApp_35/Program.cs</url>
+          <line>16</line>
+          <properties documentPath="C:\Users\PCdev\Обучение\Programming\Aida_Learning\Boolean\Boolean_App\ConsoleApp_35\Program.cs" initialLine="16" containingFunctionPresentation="method 'Main'">
+            <startOffsets>
+              <option value="643" />
+            </startOffsets>
+            <endOffsets>
+              <option value="670" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
