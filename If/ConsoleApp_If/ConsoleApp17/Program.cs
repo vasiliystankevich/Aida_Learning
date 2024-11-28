@@ -16,16 +16,16 @@ namespace ConsoleApp16
             double a = Convert.ToDouble(arr[0]);
             double b = Convert.ToDouble(arr[1]);
             double c = Convert.ToDouble(arr[2]);
-            bool firstCondition = ((a > b) & (b > c)) ^ ((a < b) & (b < c));
-            if (firstCondition = true) 
+            bool firstCondition = ((a < b) & (b < c)) ^ ((a > b) & (b > c));
+            if (firstCondition == true) 
             {
-                a = a * 2;
-                b = b * 2;
-                c = c * 2;
-                Console.WriteLine($"{a}, {b}, {c}");
+                double numbA = a * 2;
+                double numbB = b * 2;
+                double numbC = c * 2;
+                Console.WriteLine($"{numbA}, {numbB}, {numbC}");
             }
             
-            else
+            else 
             {
                 a = -a;
                 b = -b;

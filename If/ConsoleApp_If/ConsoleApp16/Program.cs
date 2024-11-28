@@ -16,15 +16,14 @@ namespace ConsoleApp16
             double a = Convert.ToDouble(arr[0]);
             double b = Convert.ToDouble(arr[1]);
             double c = Convert.ToDouble(arr[2]);
-            if ((a > b) & (b > c) )
+            if ((a < b) & (b < c) )
             {
-                a = a * 2;
-                b = b * 2;
-                c = c * 2;
+                double numbA = a * 2;
+                double numbB = b * 2;
+                double numbC = c * 2;
                 
 
-                Console.WriteLine($"{a}, {b}, {c}"); 
-                //Console.WriteLine(a*2 + b*2 + c*2);
+                Console.WriteLine($"{numbA}, {numbB}, {numbC}");
             }
             else
             {
