@@ -12,31 +12,37 @@ namespace ConsoleApp29
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("Введите целое число");
             int numb = Int32.Parse(Console.ReadLine());
-            int evenNumb = numb % 2;
-            {if ((evenNumb == 0) ^ (numb == 0))
-            {
-                Console.WriteLine("нулевое число");
-            }}
+            //int evenNumb = numb % 2;
+            //{if ((evenNumb == 0) ^ (numb == 0))
+            //{
+              //  Console.WriteLine("нулевое число");
+            //}}
 
-            bool PositNegat = (numb > 0);
-            bool EvenOdd = (numb % 2 == 0);
+            bool Posit = (numb > 0);
+            bool Negat = (numb < 0);
+            bool Even = (numb % 2 == 0);
+            bool Odd = (numb % 2 != 0);
 
             {
-                if ((PositNegat == true) ^ (EvenOdd == true))
+                if ((Posit == true) & (Even == true))
                 {
                     Console.WriteLine("Положительное четное число");
                 }
-                else if ((PositNegat == true) ^ (EvenOdd == false))
+                else if ((Posit == true) & (Odd == true))
                 {
                     Console.WriteLine("Положительное нечетное число");
                 }
-                else if ((PositNegat == false) ^ (EvenOdd == true))
+                else if ((Negat == true) & (Even == true))
                 {
-                    Console.WriteLine("Негативное положительное число");
+                    Console.WriteLine("Негативное четное число");
                 }
-                else if ((PositNegat == false) ^ (EvenOdd == false))
+                else if ((Negat == true) & (Odd == true))
                 {
                     Console.WriteLine("Отрицательное нечетное число");
+                }
+                else
+                {
+                    Console.WriteLine("нулевое число");
                 }
             }
 
